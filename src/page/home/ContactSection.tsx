@@ -16,7 +16,7 @@ export const ContactSection = () => {
       <div className="flex justify-center">
         <ImageContainer
           className="size-40"
-          src={"https://anhtuan.online/assets/lightArrow-Bd_2W9x0.svg"}
+          src={"/arrow-down.svg"}
         />
       </div>
       <div className="grid md:grid-cols-2 gap-4  justify-center flex-wrap max-w-full md:max-w-1/2  mx-auto">
