@@ -1,5 +1,6 @@
 import { UserLayout } from "@/layout/UserLayout";
 import { HomePage } from "@/page/HomePage";
+import { LoginPage } from "@/page/LoginPage";
 import { ResumePage } from "@/page/ResumePage";
 import { type RouteObject } from "react-router-dom";
 
@@ -9,5 +10,6 @@ export const userRoutes: RouteObject = {
   children: [
     { index: true, element: <HomePage /> },
     { path: "resume", element: <ResumePage /> },
+    { path: "login", element: <LoginPage /> },
   ],
 };
